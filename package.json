@@ -1,0 +1,10 @@
+{
+    "repository": "https://github.com/darkeclipz/html5-typescript-template",
+    "license": "Public Domain",
+    "devDependencies": {
+        "typescript": "latest",
+        "webpack": "latest",
+        "ts-loader": "latest",
+        "source-map-loader": "latest"
+    }
+}
