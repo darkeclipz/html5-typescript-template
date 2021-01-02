@@ -13,7 +13,7 @@ The intention is to have a small base from which a project can be started, witho
 ## How to use it?
 It has been set up to be used as easily as possible. Use the following steps to get started:
 
-  1. Clone it from Github with `git clone https://github.com/darkeclipz/html5-typescript-template`, or download the release as a .zip.
+  1. Clone it from Github with `git clone https://github.com/darkeclipz/html5-typescript-template`, or <a href="https://github.com/darkeclipz/html5-typescript-template/releases/download/v1.0.0/html5-typescript-template-v1.0.0.zip">download the release as a .zip</a>.
   2. You need to have Node JS installed for npm.
   3. Restore all the packages with `npm i --savedev`.
   4. Compile it with `webpack`.
