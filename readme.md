@@ -1,5 +1,7 @@
 # Typescript Template
 
+[See live demo](https://darkeclipz.github.io/html5-typescript-template/)
+
 ## What is this?
 
 This HTML5 Typescript Template is a very basic set up of a page, minimalistic CSS, and compiling Typescript with Webpack.
