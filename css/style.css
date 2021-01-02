@@ -1,0 +1,175 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Theme */
+:root {
+    --primary-color:#D90368;
+    --accent-color: #541388;
+    --font-dark-color: #2E294E;
+    --font-light-color: #F1E9DA;
+    --font-color: var(--font-dark-color);
+    --background-primary-color: #F1E9DA;
+    --background-secondary-color: #dbd4c7;
+}
+
+    /* Dark mode theme, override colors from :root. */
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --font-primary-color: #F1E9DA;
+            --background-primary-color: #2E294E;
+            --background-secondary-color: #24213d;
+            --font-color: var(--font-light-color);
+        }
+    } 
+
+/* Layout */
+* {
+    box-sizing: border-box; 
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--font-color);
+}
+#main {
+    display: flex;
+    min-height: calc(100vh - 176px);
+    background: var(--background-primary-color);
+}
+#main > article {
+    flex: 1;
+}
+#main > nav, 
+#main > aside {
+    flex: 0 0 20vw;
+    background: var(--background-secondary-color);
+}
+#main > nav {
+    order: -1;
+}
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+header, footer {
+    background: var(--primary-color);
+    color: var(--font-light-color);
+    height: 88px;
+}
+
+/* Default styling -- adjust this to your own! */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, code {
+    margin: 8px 0;
+}
+
+p, code {
+    line-height: 22px;
+}
+
+a {
+    color: var(--font-color);
+}
+
+h1 {
+    font-size: 18pt;
+}
+h2 {
+    font-size: 16pt;
+}
+h3 {
+    font-size: 14pt;
+}
+h4 {
+    font-size: 12pt;
+}
+p {
+    margin: 18px 0;
+}
+code {
+    font-family: monospace;
+    color: var(--font-color);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+header {
+    font-size: 22pt;
+}
+
+footer {
+    text-align: center;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol li, ul li {
+    margin: 6px 0 6px 24px;
+}
+
+section {
+    margin-bottom: 36px;
+}
+
+aside p {
+    font-family: monospace;
+}
+
+footer {
+    padding-top: 24px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    /* Add ruleset overrides. */
+}
