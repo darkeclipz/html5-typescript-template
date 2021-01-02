@@ -1,4 +1,4 @@
-# Typescript Template
+# HTML5 Typescript Template
 
 [See live demo](https://darkeclipz.github.io/html5-typescript-template/)
 
