@@ -1,8 +1,38 @@
 # Typescript Template
 
-This is a default template to start creating web apps with Typescript.
+## What is this?
 
-## How it is created/used
+This HTML5 Typescript Template is a very basic set up of a page, minimalistic CSS, and compiling Typescript with Webpack.
+
+The intention is to have a small base from which a project can be started, without the hassle of creating this boilerplate code everytime.
+
+|Light|Dark|
+|--|--|
+|![](example_light.jpeg)|![](example_dark.jpeg)|
+
+## How to use it?
+It has been set up to be used as easily as possible. Use the following steps to get started:
+
+  1. Clone it from Github with `git clone https://github.com/darkeclipz/html5-typescript-template`, or download the release as a .zip.
+  2. You need to have Node JS installed for npm.
+  3. Restore all the packages with `npm i --savedev`.
+  4. Compile it with `webpack`.
+
+## What does it include?
+This template already inclused the following things:
+
+  * Open Sans font from Google Fonts.
+  * A basic color palette created with coolors.co.
+  * Complete CSS reset.
+  * A basic 'holy grail' layout with flexbox.
+  * CSS overrides for dark mode.
+  * An empty CSS media query rule, to start with making everything responsive.
+  * Set up for Typescript with strict mode.
+  * Set up for Webpack to start building.
+
+It is supposed to be a very light boilerplate template, without any CSS framework,   or other UI/JS frameworks. These should be added yourself, if required.
+
+# How to: only setup TS/Webpack
 
 Steps required to recreate it. If Typescript `tsc` is not installed, this can be done with `npm i -g typescript`. If `npm` is not available, download Node JS.
 
