@@ -1,4 +1,4 @@
-# Typescript Template
+# HTML5 Typescript Template
 
 ## What is this?
 
